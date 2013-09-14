@@ -1,0 +1,67 @@
+html {
+  font-family: "Open Sans", Verdana, Geneva, sans-serif, "freight-sans-pro";
+  background: url('rails.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  margin: 0;
+}
+
+h1, h2{
+  opacity: 1;
+  margin: 0;
+  font-family: "Open Sans", Verdana, Geneva, sans-serif, "freight-sans-pro";
+}
+
+h1{
+  font-weight: 300;
+  font-size: 3.6em;
+}
+
+.banner {
+  height: 7em;
+  opacity: 0.5;
+  @include linear-gradient(#1e5799, #000);
+  box-shadow: 0 1px rgba(255,255,255, 0.2);
+}
+
+header{
+  h1,h2{
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    color: white;
+  }
+
+  img{
+    margin-top: 5px;
+    margin-right: 1em;
+    float: left;
+  }
+  padding-left: 2em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.why, .sign-up{
+  margin: 1em;
+  border-radius: 1em;
+  padding: 1em;
+  opacity: .9;
+  background-color: #fff;
+  box-shadow: 0 1px rgba(255,255,255, 0.2);
+
+}
+
+.why {
+  float: left;
+  width: 50%;
+}
+
+.sign-up {
+  float: right;
+  width: 40%;
+}

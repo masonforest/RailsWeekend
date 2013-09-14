@@ -1,0 +1,29 @@
+.banner
+%header
+  = image_tag 'logo.png'
+  %h1 Rails Weekend
+  %h2 Do something more than get fucked up this weekend
+.why
+  %h2 Land a Fulfilling Well Paying Job
+  %p This course will teach you the tools necessary to land an apprenticeship. After going through 3 months of apprenticeship you will be qualified for a postion as a full time developer with a salary in the $75,000-$90,000 range depending on the city you live in and your fit with the company.
+
+  %h2 Build Your Own MVP
+  %p This course will teach you the skills necessary to build a MVP(Minimum Viable Product). A minimum viable product is a site that has the absolute minimum number of features necessary for a product to have value. An idea is worth nothing to investors. Showing real customers using your product is very valuable to them (this is called traction). Once you build and MVP you will be ready to raise a seed round or or apply for an accelerator like Ycombinator or Techstars
+
+  %h2 Be Part of a Global Revolution
+  %p Our world is being eaten by software. The internet is the most powerful communication medium man has ever created. Being able to harness that power is becoming as fundamental a knowing how to read and write. Don’t be left behind.
+
+.sign-up
+  %h2 Sign Up
+  = form_for :thing do |f|
+    = f.label :test, 'Your Name'
+    = f.text_field :test
+    = f.label :test, 'Password'
+    = f.text_field :test
+    = f.label :test, 'Credit Card Number'
+    = f.text_field :test
+    = f.submit 'Enroll'
+%footer
+  %a{href:'#'} Who's teaches the course
+  %a{href:'#'} Terms
+
